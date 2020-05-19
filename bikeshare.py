@@ -34,7 +34,7 @@ def get_filters():
     # TO DO: get user input for month (all, january, february, ... , june)
     
     while True:
-       month = input('Which month do you want to filter the data by? Type only first 6 months of the year (january, february, march, april, may, june: typed in lower case) or "all" to apply no month filter \n> ').lower()
+       month = input('Which month do you want to filter the data by? Please type only first 6 months of the year (january, february, march, april, may, june: typed in lower case) or "all" to apply no month filter \n> ').lower()
        if month in months:
             break
 

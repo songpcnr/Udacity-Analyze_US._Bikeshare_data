@@ -13,5 +13,4 @@ Then write code to import the data and answer interesting questions about it by 
 - Three .csv files: chicago, new_york_city and washington
 
 ### Credits
-N/A
-
+Divvy Data (database)

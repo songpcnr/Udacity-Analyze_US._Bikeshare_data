@@ -27,21 +27,21 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
     while True:
-       city = input('Which city do you want to see the data? Type chicago, new york or washington (all in lower case) \n* Note that there is no gender and birth year statistics for washington \n> ').lower()
+       city = input('Which city do you want to see the data? Please type chicago, new york or washington (all in lower case) \n* Note that there is no gender and birth year statistics for washington \n> ').lower()
        if city in cities:
             break
 
     # TO DO: get user input for month (all, january, february, ... , june)
     
     while True:
-       month = input('Which month do you want to filter the data by? Type only first 6 months of the year (january, february, march, april, may, june: typed in lower case) or "all" to apply no month filter \n> ').lower()
+       month = input('Which month do you want to filter the data by? Please type only first 6 months of the year (january, february, march, april, may, june: typed in lower case) or "all" to apply no month filter \n> ').lower()
        if month in months:
             break
 
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     
     while True:
-        day = input('Which day do you want to filter the data by? Type day of the week in lower case or "all" to apply no day filter \n> ').lower()
+        day = input('Which day do you want to filter the data by? Please type day of the week in lower case or "all" to apply no day filter \n> ').lower()
         if day in days:
             break
 

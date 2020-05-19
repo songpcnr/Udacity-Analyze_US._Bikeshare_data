@@ -27,7 +27,7 @@ def get_filters():
     # TO DO: get user input for city (chicago, new york city, washington). HINT: Use a while loop to handle invalid inputs
     
     while True:
-       city = input('Which city do you want to see the data? Type chicago, new york or washington (all in lower case) \n* Note that there is no gender and birth year statistics for washington \n> ').lower()
+       city = input('Which city do you want to see the data? Please type chicago, new york or washington (all in lower case) \n* Note that there is no gender and birth year statistics for washington \n> ').lower()
        if city in cities:
             break
 
